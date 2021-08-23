@@ -1,0 +1,216 @@
+/* Navigation menu */
+
+.nav-bar{
+
+    padding: 40px; 
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.left-side{
+    display: flex;
+    
+}
+
+
+.nav-bar > .left-side > div{
+    margin-right: 10px;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link-wrapper a {
+    color: #cbbd55; 
+    text-decoration: none;
+    transition: color 0.5s;
+    margin: 7px;
+}
+
+.nav-link-wrapper:hover { 
+    border-bottom: 1px solid #cbbd55;
+}
+
+.active-nav-link{
+    border-bottom: 1px solid #ffd300;
+}
+
+.active-nav-link a {
+    color: #ffd300 !important;
+ }
+
+.social-media{
+    position: absolute;
+    top: 70px;
+    right: 32px;
+}
+
+.social-media a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    background: #181818;
+    color:  #ffd300;
+    margin: 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.social-media a:hover{
+    background: #ffd300;
+    color: #191919;
+    box-shadow: none;
+}
+
+/* Main */
+
+body{
+    margin: 0px; 
+    background-color: whitesmoke;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: whitesmoke;
+}
+
+.image-home{
+    position: relative;
+    width: 100%;
+    margin-top: -16px;
+}
+
+.pic-text-home{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+.pic-text-home span{
+    color: #ffd300; 
+    font: bold 50px/70px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: #191919; 
+    padding: 10px; 
+    margin: -2px;
+}
+
+.spacer{
+    padding: 1px;
+}
+
+.about-main{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.about-main .about-link-homepage{
+    text-decoration: none;
+    background-color: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.header-frontpage{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 40px;
+}
+
+
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover{
+    transform: scale(1.5);
+}
+  
+
+/* Footer */
+
+.footer{
+    padding: 38px;
+    background-color: #191919;
+    color: #ffd300;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 17px;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bread{
+    text-decoration: none;
+    color: #ffd300;
+}
+
+.bread:hover{
+    transition: 0.4s;
+    color: #cbbd55
+}
+
+
+/* About me page */
+
+.profile-content{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.profile-content a{
+    font-weight: bold; 
+}
+
+.name-aboutme{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-me-here{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; 
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .image-about{
+    margin: 30px;
+}
